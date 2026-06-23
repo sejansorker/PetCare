@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       </div>
       <div className="w-2/4">
-      <ul className='flex items-center gap-x-12 justify-center'>
+      <ul className='flex items-center gap-x-12 justify-center font-main'>
         <li>Home</li>
         <li>Service</li>
         <li>Shop</li>
@@ -20,8 +20,8 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
       </div>
-      <div className="w-1/4">
-      <button>Book</button>
+      <div className="w-1/4 flex justify-end">
+      <button className='bg-[#008F72] py-3 px-10 '>Book</button>
       </div>
     </div>
   </Container>
